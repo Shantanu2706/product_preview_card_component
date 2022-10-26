@@ -1,0 +1,124 @@
+body {
+  background-color: hsl(30, 38%, 92%);
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+  font-family: 'Fraunces', serif;
+  font-weight: bold;
+  color: hsl(212, 21%, 14%);
+  line-height: 2.5rem;
+
+}
+
+img {
+  margin-right: 10px;
+}
+
+p {
+  font-family: 'Montserrat', sans-serif;
+  color: hsl(228, 12%, 48%);
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+.btn {
+  background-color: hsl(158, 36%, 37%);
+  color: white;
+  width: 100%;
+  font-size: 0.8rem;
+  padding: 10px;
+  font-weight: bold;
+  margin-top: -10px;
+}
+
+.btn:hover {
+  color: white;
+  background-color: hsl(158, 36%, 25%);
+}
+
+.dollar {
+  font-size: 2rem;
+  color: hsl(158, 36%, 37%);
+  font-weight: 700;
+  font-family: 'Fraunces', serif;
+}
+
+.div1 {
+  width: 300px;
+  height: 450px;
+  background-size: 100%;
+  background-image: url("images/image-product-desktop.jpg");
+}
+
+.div2 {
+  padding: 30px;
+  background-color: white;
+}
+
+.inner-div {
+  display: flex;
+  align-items: center;
+}
+
+.p1 {
+  letter-spacing: 3px;
+  font-size: 0.7rem;
+}
+
+.p3 {
+  margin-left: 20px;
+  text-decoration: line-through;
+}
+
+.parent-div {
+  width: 600px;
+  margin: 50px auto;
+  border-radius: 1.5%;
+  overflow: hidden;
+}
+
+@media screen and (min-width: 767px){
+  h1{
+    margin-bottom: 30px;
+  }
+
+  .btn{
+    margin-top: -5px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  h1 {
+    line-height: 1.9rem;
+    margin-top: -10px;
+    /* margin-bottom: 0; */
+  }
+
+  p {
+    font-size: 14px;
+  }
+
+  .div1 {
+    width: 343px;
+    height: 240px;
+    background-image: url("images/image-product-mobile.jpg");
+  }
+
+  .div2 {
+    padding: 24px;
+  }
+
+  .parent-div {
+    width: 343px;
+  }
+}
